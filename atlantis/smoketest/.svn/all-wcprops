@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/atlantis/!svn/ver/548/trunk/smoketest
+END
+smoketest.py
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/atlantis/!svn/ver/548/trunk/smoketest/smoketest.py
+END
+checkpassword.py
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/atlantis/!svn/ver/445/trunk/smoketest/checkpassword.py
+END
+bot.py
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/548/trunk/smoketest/bot.py
+END

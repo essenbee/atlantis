@@ -1,0 +1,437 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/atlantis/!svn/ver/609/trunk/arcadia
+END
+battle1.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/602/trunk/arcadia/battle1.h
+END
+gameio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/601/trunk/arcadia/gameio.cpp
+END
+orders.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/604/trunk/arcadia/orders.h
+END
+fileio.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/604/trunk/arcadia/fileio.cpp
+END
+i_std.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/594/trunk/arcadia/i_std.h
+END
+game.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/609/trunk/arcadia/game.cpp
+END
+map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/609/trunk/arcadia/map.cpp
+END
+gamedefs.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/605/trunk/arcadia/gamedefs.h
+END
+faction.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/faction.cpp
+END
+runorders.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/atlantis/!svn/ver/609/trunk/arcadia/runorders.cpp
+END
+unit.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/atlantis/!svn/ver/609/trunk/arcadia/unit.h
+END
+aregion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/aregion.cpp
+END
+formation1.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/599/trunk/arcadia/formation1.h
+END
+Notes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/604/trunk/arcadia/Notes.txt
+END
+edit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/609/trunk/arcadia/edit.cpp
+END
+production.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/atlantis/!svn/ver/594/trunk/arcadia/production.cpp
+END
+modify.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/604/trunk/arcadia/modify.cpp
+END
+market.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/596/trunk/arcadia/market.h
+END
+rules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/605/trunk/arcadia/rules.cpp
+END
+skillshows.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/atlantis/!svn/ver/609/trunk/arcadia/skillshows.cpp
+END
+specials.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/609/trunk/arcadia/specials.cpp
+END
+monthorders.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/atlantis/!svn/ver/609/trunk/arcadia/monthorders.cpp
+END
+object.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/596/trunk/arcadia/object.cpp
+END
+skills.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/595/trunk/arcadia/skills.h
+END
+economy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/economy.cpp
+END
+gamedefs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/594/trunk/arcadia/gamedefs.cpp
+END
+alist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/594/trunk/arcadia/alist.cpp
+END
+astring.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/594/trunk/arcadia/astring.h
+END
+formation1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/atlantis/!svn/ver/609/trunk/arcadia/formation1.cpp
+END
+unit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/609/trunk/arcadia/unit.cpp
+END
+npc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/601/trunk/arcadia/npc.cpp
+END
+magic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/609/trunk/arcadia/magic.cpp
+END
+market.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/596/trunk/arcadia/market.cpp
+END
+world.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/595/trunk/arcadia/world.cpp
+END
+aregion.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/609/trunk/arcadia/aregion.h
+END
+production.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/594/trunk/arcadia/production.h
+END
+i_rand.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/601/trunk/arcadia/i_rand.cpp
+END
+standard_intro.html
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/atlantis/!svn/ver/592/trunk/arcadia/standard_intro.html
+END
+hexside.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/601/trunk/arcadia/hexside.h
+END
+skills.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/599/trunk/arcadia/skills.cpp
+END
+spells.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/609/trunk/arcadia/spells.cpp
+END
+astring.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/astring.cpp
+END
+gamedata.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/605/trunk/arcadia/gamedata.h
+END
+monsters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/593/trunk/arcadia/monsters.cpp
+END
+object.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/596/trunk/arcadia/object.h
+END
+alist.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/594/trunk/arcadia/alist.h
+END
+times.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/605/trunk/arcadia/times.cpp
+END
+soldier1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/609/trunk/arcadia/soldier1.cpp
+END
+extra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/605/trunk/arcadia/extra.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/605/trunk/arcadia/main.cpp
+END
+items.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/604/trunk/arcadia/items.h
+END
+hexside.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/hexside.cpp
+END
+battle1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/609/trunk/arcadia/battle1.cpp
+END
+army1.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/599/trunk/arcadia/army1.h
+END
+orders.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/604/trunk/arcadia/orders.cpp
+END
+shields.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/594/trunk/arcadia/shields.h
+END
+i_rand.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/601/trunk/arcadia/i_rand.h
+END
+gamedata.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/609/trunk/arcadia/gamedata.cpp
+END
+Changes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/604/trunk/arcadia/Changes.txt
+END
+gameio.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/594/trunk/arcadia/gameio.h
+END
+spells.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/604/trunk/arcadia/spells.h
+END
+template.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/604/trunk/arcadia/template.cpp
+END
+fileio.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/604/trunk/arcadia/fileio.h
+END
+game.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/atlantis/!svn/ver/609/trunk/arcadia/game.h
+END
+items.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/604/trunk/arcadia/items.cpp
+END
+helper.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/594/trunk/arcadia/helper.h
+END
+genrules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/atlantis/!svn/ver/604/trunk/arcadia/genrules.cpp
+END
+soldier1.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/605/trunk/arcadia/soldier1.h
+END
+faction.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/604/trunk/arcadia/faction.h
+END
+parseorders.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/atlantis/!svn/ver/609/trunk/arcadia/parseorders.cpp
+END
+army1.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/atlantis/!svn/ver/609/trunk/arcadia/army1.cpp
+END
+shields.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/atlantis/!svn/ver/594/trunk/arcadia/shields.cpp
+END

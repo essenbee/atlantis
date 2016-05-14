@@ -1,0 +1,303 @@
+Recent Ideas/Suggestions:
+
+! Update genrules to reflect incremental taxes !
+ (somewhere near line 2700 in genrules.cpp)
+
+** Economy
+   -- allow markets to be switched on or off when disabling/enabling items
+      (so that a GM can correct item choices made at world creation time).
+   -- add a selection gamedef to allow for enabling individual item types
+      (basic resources, mounts, tools, weapons, armor) for markets.
+   -- finish hex development/wages/growth stuff.
+   -- add a way to create new settlements during the game.
+   -- DEVELOPMENT gamedef to control settlement size at start of the game.
+   -- trade item prices depend on development (allowing more profit to be
+      made the more developed your cities are).
+   -- make trade items produceable.
+   -- option to have trade structures increase the resource by 50% but
+      decrease all others by 33%.
+   -- player economy: give each town a trade allotment. Trade factions can
+      "withdraw" items from local silver up to the trade allotment per turn.
+      This only works if the item can basically be produced in that region
+      (from local resources).
+      Items withdrawn like this get added to next turn's demand! (thus the
+      players make the markets). Silver surplus from these markets is paid
+      directly into a development fund (boosts town development).
+   -- incremental tax returns: x silver with skill, +y with weapon,
+      +z with armor, +a if inside a fort...
+   -- let taxation act as a dampener on economic activity, such as lowering
+      positive effects on development and wages, which is offset by trading
+      non-food items.
+
+** Order Parser
+   -- when parsing unit lists, check for multiple unit entries and disregard
+      them.
+      
+** NPCs
+   -- add an arm% to MakeManUnit to allow for less than 100% armed units.
+   -- add a way of adding game-specific npc factions and a turn phase where
+      the npc ai gives orders.
+   -- unit control: allow npc units to be controlled by player factions.
+      
+** Battle
+   -- modify chance of attack in free rounds according to tactics (first
+      round) and speed (rout).
+   -- item loss for winners' casualties too.
+   -- item loss in battle due to usage.
+   -- mounts: chance for killing mount for each hit on the rider.
+   -- need to do something about the 10 men in front protecting 1000 archers
+      behind situation (such as a 1% chance to hit the rear rank per
+      10x ratio back-to-front).
+   -- change CLOA protection to 97% (was 99%).
+   
+** Spoils
+   -- no mounts as spoils! Consequently change the way the spoil flags
+      work.
+   -- no NORMAL weapons if the unit did't have them.
+   -- better spoils distribution: units who need an item will get it
+      before others do.
+   -- Item spoils only from monster lairs (see below).
+   -- less item recovery in battle for: armies on the move, huge battles.
+   -- chance of weapon destruction if a soldier is killed by a magic
+      attack (fire attacks destroy all wooden weapons etc).
+      
+** Lairs
+   -- can house multiple units, only the first one is visible to the
+      outside world and can interact with it.
+   -- entering a lair (requiring an OBSE leader or so) causes a fight
+      with ALL monsters in the lair. Only these fights give full spoils.
+   -- have (some) lairs act as shafts and not have any shafts from the
+      surface to the underworld.
+   
+** Stealth/Observation:
+   -- SEARCH command: a month-long order giving a possible OBSE bonus
+      for seeing non-moving units in the region. 0.1% for +1 bonus per man,
+      0.1% for additional +1 per 10 men and for a third +1 0.1% chance per
+      100 men in the unit.
+   -- Add a chance where a stealth unit loses one point of stealth after
+      performing a theft or assassination.
+   -- Figure weight into Stealth.
+      
+** Movement:
+   -- keep a record of unused MP and move direction from turn to turn.
+   -- make terrain MP cost more configurable.
+   -- introduce an option to double all unit's MP and add together MP cost
+      for leaving a hex and entering a hex per move.
+   -- implement "AT x y (z)" commands. The unit would stop when reaching
+      an AT hex and would add the orders bracketed by AT to the template
+      for next turn.
+      
+** Units:
+   -- Unit grouping: implement objects such as "Camp" and "Caravan" that
+      allow all units in them to move together. Camp units also fight
+      together and caravan units also share weight between them.
+   -- Racial leaders.
+   -- XP system. XP's are needed for leader skills (OBSE,TACT,STEA,WCRA,
+      ACRA, and all magic). They are gained through exploration, battle,
+      entering lairs, trading a new trade item in a city, etc.
+      
+** Faction Point System:
+   -- introduce a Faction Efficiency System as suggested on atlantisdev.
+   -- some kind of mana system.
+
+** Spells:
+   -- modify the way banishing works: A BDEM mage would get 1 to [skill
+      level] attacks. Each attack has a certain chance of banishing the
+      demon instantly, as per normal contest spell level vs. magic
+      defense. (as per Ben Lloyd's suggestion).
+   -- change necromancy by creating a raise undead spell that creates
+      undead in the aftermath of a battle.
+   -- do something about illusions (make them impervious to all attacks
+      except melee?).
+      
+** World Creation:
+   -- underworld: more customisability and more terrains (also fix lakes
+      in the underworld).
+   -- find a new algorithm for making land with the fractal options
+      (something that's at least partially based on elevation so that
+      worlds don't turn out so different each time).
+
+---------------------------------------------------------------------------
+Pre-Version 5 TODO:
+
+** Architecture
+   -- Improve the item/hex editor [low priority]
+   -- I'd like to add some code that will do a bit of validation on a
+      rule-set, and make sure it isn't broken.
+   -- Rework data storage so game files refer to items, etc. by abbreviation,
+      rather than array index. Remove all array indices from game files.
+      (partially done)
+   -- Move all ruleset static data to human readable (and editable) files
+   -- Get rid of indices totally, use item abbreviation or some other
+      tag to lookup in various tables.
+   -- Localise all strings, to allow for internationalisation 
+   -- Exit with an error code on errors
+
+** Combat
+   -- Consider a gamedef which keeps tactics skill (and combat skills?)
+      hidden from combatants.  (I personally think this a bad idea, but it
+      was suggested, thus goes on this list)
+   -- Consider hiding battle details from units which are completely wiped
+      out?  [You know a battle occured, but no details of the enemy forces].
+      Again, I suspect rumors travel (ie, the peasants in the area that saw
+      the battle talk and the word of their strenght spreads).   Given that
+      generating *inaccurate* reports would be a royal pain, I will probably
+      leave this be.
+   -- Add more info to battle reports. Need some discussion on what might
+      be good items to include.
+   -- Consider a gamedef which has monsters only give silver as loot,
+      never items (maybe up the amount of silver given slightly under this
+      option)
+   -- Consider a gamedef which prevents trade goods being given as loot,
+      as they tend to just annoy non-trade factions.
+   -- Consider having specific types of wandering monsters carrying
+      specific types of armor/weapons (such as pirates or skeleton or
+      kobolds).  Possibly make those monsters not give normal loot, but
+      only the stuff they carried.
+   -- Consider Tactics alternative -- High tactics side gets a combat bonus
+      of +X to all attacks (decreasing by one per round down to 0) where X
+      is the difference in tactical advantage. [Found in an old suggestion
+      on the dejanews.comm.atlantisproject newsgroup]
+   -- Consider Terrain bonuses for native -- three possible options
+      1) creatures in their native territory get a +1 attacking bonus
+      2) creatures in their native territory get a +2 attacking bonus
+      3) creatures in their native territory add +1 to their sides tactics
+      [Found in an old suggestion on the dejanews.comm.atlantisproject
+      newsgroup]
+   -- Consider Tim Martel's suggestion to allow ranged attacks from front
+      row troops to hit the rear row of defenders.
+   -- Consider Tim Martel's suggestion of 'low magic'/'no magic' areas.
+   -- Consider 'overall' morale score which could affect routing.
+   -- Consider Geoff Dunbars more complicated (left/middle/right,
+      behind,command) combat system as he proposed it [in atlantisdev message
+      #2703].
+   -- Consider Tim Martel's suggestion of having tactical advantage be a
+      contest of skills, rather than a straight comparison.
+
+** Items
+   -- Consider adding the ability to produce trade goods.
+   -- Consider an option to disable trade all goods.
+   -- Consider reducing the number of trade goods to make viable routes
+      more likely.
+   -- Consider Duergar's war horses [See atlantisdev post #1119]
+   -- Consider having use'd items [i.e., items which are utilised by a USE
+      order; may be part of an expanded magic system].
+   -- Consider possible tools for increasing building (and ship) production.
+   -- Consider multi-race hexes [See atlantisdev post #7] It is potentially
+      unbalancing (since it now requires some resource management to get
+      good specialists to the right places, but might be nice when combined
+      with a larger number of races (such as Ceran))
+   -- Consider Tim Martel's idea of a total limit on production of a
+      resource in a hex with a chance of regeneration.
+
+
+** Orders
+   -- consider ADVERTISE/PURCHASE orders (ADVERTISE run end of month,
+      PURCHASE run at beginning) to allow player run markets in a hex for
+      the succeeding month.  [Perennial suggestion.  Reason for using
+      different commands than BUY/SELL is a) to have them resolve at a
+      specific time in the order processing (different than buy/sell) AND
+      to easily allow different syntax (you could advertise teaching in
+      addition to items -- If you advertised teaching would have to *FORCE*
+      unit to teach the next turn even if noone bought the studying, that's
+      the price of doing business in skills)]
+   -- It would be nice to have 'overwriting' errors only occur when the
+      order being overridden was non repeating.
+   -- It might be nice to have "no such unit" errors only occur in
+      GIVEs if the order is non repeating (giving to caravans).
+   -- Possibly modify the orders processor to replace 'NEW XX' for the
+      faction which owns the unit in question (or which the unit in question
+      considers ally?) with the actual unit number in templated orders.
+   -- Transport/deliver orders (in progress)
+
+** Orders, Conditional
+   -- Consider having 'conditional orders' specifically 'AT x,y,z'. 
+      [I think that with the advent of the TURN/ENDTURN order this is
+      less useful, especially as implementing this 'correctly' would require
+      having the ability to run instant orders at the start of each movement
+      phase, which is *not* something I wish to begin doing, at least not
+      in the 4.0 series of Atlantis.]
+
+** Rules
+   -- Consider "building specific" skills. [Meaning here that there are skills
+      which could only be learned in that specific location.  Requested for
+      Ceran]
+   -- Consider having buildings which require specific items/skills to enter.
+      [Suggested/requested by Ben Lloyd (I think).  Basically, gives a way to
+      add some role-playing elements to the game in the forms of quests --
+      especially if combined with the early suggestion about non-teachable
+      skills.]
+   -- Add a 'MAINTAINONLY' flag to buildings so that a building can decay and
+      be kept up, but cannot be constructed. (requested for Ceran)
+	  
+   -- Unit grouping (eg. Armies or Schools).
+   
+   -- Show faction of ally in refusal to attack or assassinate.
+
+   -- Add ability to set stances versus specific units, not just factions
+      [This would allow you to be unfriendly to a faction but still allow
+      specific unit ambassadors to travel through your lands, or trade with
+      you, or what not.   Right now, it's all or nothing against a faction
+      and this would push the granularity down a level.]
+
+   -- Figure out how an autoclaim option for studying could be made to work
+      [Tom Alsen suggested a 'POOL' command which allows you to pool money
+      in a hex for things like studying, upkeep, purchases, etc]
+
+   -- Add option for entertain being an instant order.
+   -- Make monster movement only choose among viable exits [Perhaps with
+      a bias against moving back where you came from.  Also make sure to
+      leave a percentage chance for staying put]
+   -- Consider some sorts of dangers for production
+
+** Rules, food
+   -- Consider allowing luxury food items (chocolate, vodka, cavier) to be
+      able to be eaten.  Again, don't think this is a good idea, but will
+      at least think on it.
+
+** Skills
+   -- Merchant skill (limited number of merchants)
+      [The thought on the Merchant skill is that
+      a unit with the merchant skill could buy/sell items at a profit of
+      (for example) 10% of the listed price times his skill level, so a
+      level 5 merchant would be able to buy items from a city at 50% of
+      the listed value and sell them for 150% of the listed value.  Having
+      that unlimited seemed unbalancing, so I figured limiting it (much as
+      total number of mages are limited to mage factions) based on number
+      of trade points.
+   -- Consider the use of buildings as skill boosters for some skills.
+      [Craig had initially suggested  a shipyard which gave the first 20
+      men in it a +1 boost to SHIP, but realized that this wouldn't work
+      as when they started construction of the ship they'd leave the
+      building and enter the new ship, but it might be useful in other
+      contexts -- such as horsemen in a stable or farmers in a farm]
+      [This would probably be new buildings rather than the existing ones
+      since total produce boosters are useful as well]
+   -- Consider a tracking skill (contested by stealth or by a new skill?)
+      which would allow a tracker to see information like whether a unit
+      was deliberately revealing information, who that unit gave things too,
+      which direction that unit moved, etc.
+
+** Spells/Magic
+   -- Add more items so that apprentices are actually useful. [Tom suggested
+      that another way of making apprentices more useful would be to allow
+      them to learn magic skills, but none above level 2.. This would take
+      a bit more work, but is a valid option]
+   -- rethink some of the current spells. [Az's beastform spell]
+   -- Clean up spell system -- Damage spells have been parameterized,
+      Object creation spells, summoning spells and 'other' spells still
+      need some sort of parameterization and genericization so that they
+      can be tweaked on a game basis if desired. [This includes the handling
+      of things like the speed increase from Summon Wind]
+   -- Merge Lacandon spells -- SOME work has been done on this already
+      but a LOT more needs to be done before this is really doable without
+      a lot of heartache and pain.
+
+** World Creation
+   -- Prompt for things like ocean percent and other values used only at
+      world creation time.
+
+** Atlantis 5.0.0
+   -- Ben Lloyd's class system should go in (probably wait on 5.0.0)
+   -- Move String and List over to using a STL implementation
+   -- Reconsider XML report generation.

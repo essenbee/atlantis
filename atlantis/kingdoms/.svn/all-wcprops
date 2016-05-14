@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/atlantis/!svn/ver/578/trunk/kingdoms
+END
+extra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/572/trunk/kingdoms/extra.cpp
+END
+world.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/561/trunk/kingdoms/world.cpp
+END
+monsters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/atlantis/!svn/ver/511/trunk/kingdoms/monsters.cpp
+END
+rules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/578/trunk/kingdoms/rules.cpp
+END
+map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/atlantis/!svn/ver/551/trunk/kingdoms/map.cpp
+END

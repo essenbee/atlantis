@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/atlantis/!svn/ver/578/trunk/basic
+END
+basic_intro.html
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/atlantis/!svn/ver/536/trunk/basic/basic_intro.html
+END
+extra.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/536/trunk/basic/extra.cpp
+END
+world.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/561/trunk/basic/world.cpp
+END
+rules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/atlantis/!svn/ver/578/trunk/basic/rules.cpp
+END
+monsters.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/atlantis/!svn/ver/536/trunk/basic/monsters.cpp
+END
+map.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/atlantis/!svn/ver/536/trunk/basic/map.cpp
+END

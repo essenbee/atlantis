@@ -142,6 +142,81 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="alist.cpp" />
+    <ClCompile Include="aregion.cpp" />
+    <ClCompile Include="army.cpp" />
+    <ClCompile Include="astring.cpp" />
+    <ClCompile Include="battle.cpp" />
+    <ClCompile Include="economy.cpp" />
+    <ClCompile Include="edit.cpp" />
+    <ClCompile Include="faction.cpp" />
+    <ClCompile Include="fileio.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="gamedata.cpp" />
+    <ClCompile Include="gamedefs.cpp" />
+    <ClCompile Include="gameio.cpp" />
+    <ClCompile Include="genrules.cpp" />
+    <ClCompile Include="items.cpp" />
+    <ClCompile Include="i_rand.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="market.cpp" />
+    <ClCompile Include="modify.cpp" />
+    <ClCompile Include="monthorders.cpp" />
+    <ClCompile Include="npc.cpp" />
+    <ClCompile Include="object.cpp" />
+    <ClCompile Include="orders.cpp" />
+    <ClCompile Include="parseorders.cpp" />
+    <ClCompile Include="production.cpp" />
+    <ClCompile Include="runorders.cpp" />
+    <ClCompile Include="shields.cpp" />
+    <ClCompile Include="skills.cpp" />
+    <ClCompile Include="skillshows.cpp" />
+    <ClCompile Include="specials.cpp" />
+    <ClCompile Include="spells.cpp" />
+    <ClCompile Include="standard\extra.cpp" />
+    <ClCompile Include="standard\map.cpp" />
+    <ClCompile Include="standard\monsters.cpp" />
+    <ClCompile Include="standard\rules.cpp" />
+    <ClCompile Include="standard\world.cpp" />
+    <ClCompile Include="template.cpp" />
+    <ClCompile Include="unit.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alist.h" />
+    <ClInclude Include="aregion.h" />
+    <ClInclude Include="army.h" />
+    <ClInclude Include="astring.h" />
+    <ClInclude Include="battle.h" />
+    <ClInclude Include="faction.h" />
+    <ClInclude Include="fileio.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="gamedata.h" />
+    <ClInclude Include="gamedefs.h" />
+    <ClInclude Include="gameio.h" />
+    <ClInclude Include="helper.h" />
+    <ClInclude Include="items.h" />
+    <ClInclude Include="i_rand.h" />
+    <ClInclude Include="i_std - Copy.h" />
+    <ClInclude Include="i_std.h" />
+    <ClInclude Include="market.h" />
+    <ClInclude Include="object.h" />
+    <ClInclude Include="orders.h" />
+    <ClInclude Include="production.h" />
+    <ClInclude Include="shields.h" />
+    <ClInclude Include="skills.h" />
+    <ClInclude Include="spells.h" />
+    <ClInclude Include="unit.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CHANGELOG" />
+    <None Include="CREDITS" />
+    <None Include="GAMEMASTER" />
+    <None Include="LICENSE" />
+    <None Include="Makefile" />
+    <None Include="README" />
+    <None Include="standard\html\standard.css" />
+    <None Include="standard\standard_intro.html" />
+    <None Include="TODO" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
